@@ -1,5 +1,6 @@
 import DoropDownNotifcations from "./DoropDownNotifcations"
 import DoropDownMessages from "./DropDownMessages"
+import UserDropDown from "./UserDropDown"
 
 function Header() {
   return (
@@ -38,15 +39,13 @@ function Header() {
               />
             </div>
           </form>
-          <div className="flex items-center gap-3">
-            <ul className="flex items-center gap-2">
+            <ul className="flex items-center gap-4">
                 <DoropDownNotifcations/>
                 <DoropDownMessages  />
-
+                <UserDropDown/>
             </ul>
 
           </div>
-        </div>
       
     </header>
   )
